@@ -6,12 +6,6 @@ The project can be braodly divided into two parts -
 # Steps to follow
 
 1) Extract train and test images from ```data.rar``` file.
-2) Install dependencies using
-
-   ```pip install pipenv```
-
-   ```pipenv install```
-
-3) Run the jupyter notebook for training, ```model.json``` and ```model_weights.h5``` files will be created after training.
-4) Add the correct path to the video file in camera.py [if you want a live streaming you can write 0]on line 11.
-5) Now run  ```pipenv run python3 main.py```
+2) Run the jupyter notebook for training, ```model.json``` and ```model_weights.h5``` files will be created after training.
+3) Add the correct path to the video file in camera.py [if you want a live streaming you can write 0]on line 11.
+4) Now run  ```pipenv run python3 main.py```
